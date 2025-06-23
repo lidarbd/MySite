@@ -1,0 +1,111 @@
+{
+    "name": "Lidar Ben-Dor",
+    "title": "Software Engineer",
+    "contact": {
+        "phone": "054-6735816",
+        "email": "lidar210599@gmail.com",
+        "github": "https://github.com/lidarbd",
+        "linkedin": "https://www.linkedin.com/in/lidar-ben-dor",
+        "website": "My Site"
+    },
+    "profile": "Software engineer with hands-on experience in Python, React, TypeScript and C#. Proven ability to deliver end-to-end solutions in fast-paced startup environments. Ambitious, autodidact and team player, excited to tackle new challenges. Seeking a full-time position as a Software Engineer.",
+    "education": {
+        "institution": "The Academic College of Tel-Aviv, Yaffo",
+        "degree": "B.Sc. Computer Science",
+        "gpa": "82",
+        "honors": "Dean's list 2nd year",
+        "coursework": [
+            "Software Engineering (95)",
+            "Data Structures",
+            "Databases (91)",
+            "Operating Systems (Linux)",
+            "Algorithms",
+            "Object Oriented Programming (100)",
+            "Design Patterns (96)"
+        ]
+    },
+    "experience": [
+        {
+            "title": "Full Stack Developer",
+            "company": "Taliaz",
+            "duration": "2024 – 2025",
+            "type": "Full-time",
+            "responsibilities": [
+                "Integral team member at a startup focused on mental health care, involved in all phases of development.",
+                "Built and maintained backend services using Python, leveraging Xano for data storage.",
+                "Developed frontend interfaces using JavaScript, CSS, and Retool.",
+                "Gained experience in programming with prompt languages to enhance application functionality."
+            ]
+        },
+        {
+            "title": "Frontend Developer",
+            "company": "Deep Void",
+            "duration": "Oct 2023 – Feb 2024",
+            "type": "Part-time (during reserve military service)",
+            "responsibilities": [
+                "Designed and implemented UI features with TypeScript and React."
+            ]
+        }
+    ],
+    "technologies": {
+        "languages_frameworks": [
+            "C/C++",
+            "C#",
+            "Python",
+            "JavaScript",
+            "TypeScript",
+            "React",
+            ".NET",
+            "FastAPI"
+        ],
+        "tools_platforms": [
+            "Git",
+            "Linux",
+            "Docker",
+            "Postman",
+            "SQL",
+            "AWS"
+        ],
+        "concepts": [
+            "OOP",
+            "Design Patterns",
+            "Multithreading",
+            "REST APIs"
+        ]
+    },
+    "projects": [
+        {
+            "name": "Checkers Game",
+            "technologies": "C#",
+            "description": "Designed a two-player game using events, delegates, and WinForms UI."
+        },
+        {
+            "name": "Facebook API App",
+            "technologies": "C#",
+            "description": "Added two features to Facebook via its API, with UML design and WinForms."
+        },
+        {
+            "name": "Coupon Management System",
+            "technologies": ".NET, MySQL",
+            "description": "Admin panel, RESTful API, and dynamic coupon validation logic using Entity Framework."
+        },
+        {
+            "name": "Pacman Console Game",
+            "technologies": "C++",
+            "description": "Console-based Pacman game focuses on logic and control handling."
+        }
+    ],
+    "military_service": {
+        "unit": "Unit 9900, IAF Intelligence",
+        "duration": "Apr 2018 – Apr 2020",
+        "achievements": [
+            "Strategic observation analyst.",
+            "Awarded 'Locator of the Year' for key intelligence contribution.",
+            "Led two research projects for senior military leadership."
+        ]
+    },
+    "languages": {
+        "Hebrew": "Native",
+        "English": "Fluent"
+    }
+}
