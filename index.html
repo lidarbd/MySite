@@ -58,12 +58,7 @@
                     <p>
                         As an ambitious autodidact and team player, I'm excited to tackle new challenges and
                         contribute to innovative projects. I have a strong academic background with a B.Sc. in
-                        Computer Science and Dean's list recognition, combined with practical experience
-                        in both frontend and backend development.
-                    </p>
-                    <p>
-                        My military service in Unit 9900, IAF Intelligence, where I was awarded 'Locator of the Year'
-                        and led research projects, has strengthened my analytical thinking.
+                        Computer Science and Dean's list recognition.
                     </p>
                     <div class="skills">
                         <h3>Skills & Technologies</h3>
@@ -298,22 +293,23 @@
             });
         });
     </script>
+
+    <script>
+        document.getElementById('phone-icon').addEventListener('click', function (event) {
+            event.preventDefault();
+            const phoneNumber = '+972546735816';
+
+            const textArea = document.createElement('textarea');
+            textArea.value = phoneNumber;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+
+            alert('Phone number copied to clipboard!');
+        });
+    </script>
 </body>
 
 </html>
 
-<script>
-    document.getElementById('phone-icon').addEventListener('click', function (event) {
-        event.preventDefault();
-        const phoneNumber = '+972546735816';
-
-        const textArea = document.createElement('textarea');
-        textArea.value = phoneNumber;
-        document.body.appendChild(textArea);
-        textArea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textArea);
-
-        alert('Phone number copied to clipboard!');
-    });
-</script>
