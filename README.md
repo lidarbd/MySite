@@ -1,4 +1,4 @@
-# Lidar Ben-Dor - Software Engineer Portfolio
+# Lidar Ben-Dor - Portfolio
 
 Welcome to my portfolio website! 
 This site is a showcase of my work, skills, and experiences as a Software Engineer. 
