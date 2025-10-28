@@ -177,6 +177,11 @@ body {
     transition: all 0.3s ease;
 }
 
+.skill-tag i {
+    margin-right: 5px;
+    font-size: 0.9rem;
+}
+
 .skill-tag:hover {
     background: #2563eb;
     transform: translateY(-2px);
@@ -207,14 +212,18 @@ body {
 }
 
 .btn-primary {
-    background: #3b82f6;
-    color: white;
+    background: #fff;
+    color: #7f1d1d;
+    border: 2px solid #7f1d1d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
 }
 
 .btn-primary:hover {
-    background: #2563eb;
+    background: #7f1d1d;
+    color: white;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+    box-shadow: 0 4px 12px rgba(127, 29, 29, 0.2);
 }
 
 .resume-preview {
